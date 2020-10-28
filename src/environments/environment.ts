@@ -3,8 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
 };
+
+export const apis = {
+  apiPeople: 'https://swapi.dev/api/people',
+  apiStarships: 'https://swapi.dev/api/starships',
+  apiPlanets: 'https://swapi.dev/api/planets',
+}
 
 /*
  * For easier debugging in development mode, you can import the following file
